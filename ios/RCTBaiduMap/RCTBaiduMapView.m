@@ -305,7 +305,7 @@
             NSInteger prefixIndex = currentIndex - 1;
             BMKSportNode *centerNode = [sportNodes objectAtIndex:prefixIndex];
             self.centerCoordinate = centerNode.coordinate;
-          }else {
+          } else {
             BMKSportNode *centerNode = [sportNodes objectAtIndex:(sportNodeNum - 1)];
             self.centerCoordinate = centerNode.coordinate;
           }
